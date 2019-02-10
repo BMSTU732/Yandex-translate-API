@@ -34,7 +34,7 @@ public class YandexTranslate {
 
     private static String getYandexTranslate (String text) throws IOException {
         String address = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=" +
-                "trnsl.1.1.20170317T113621Z.ef483aec3f67594b.fcf593b397d506b0de046ff852b3253503346588" +
+                "trnsl.1.1.20190207T165449Z.737ba9e0a47e2876.a03251d1f9b9a5a9aa4689e3857432209e983672" +
                 "&text=" + text + "&lang=en-ru";
         HttpURLConnection connection = ((HttpURLConnection) new URL(address).openConnection());
         connection.setDoOutput(true);
